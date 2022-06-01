@@ -1,5 +1,5 @@
-import StatsDataGrid from "./DataGrid";
-import { TeamPage } from "./TeamPage";
+import StatsDataGrid from "./StatsDataGrid";
+import { TeamPage } from "./HomePage/TeamPage";
 
 function App() {
   return (
