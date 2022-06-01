@@ -1,4 +1,4 @@
-import { Box, Grid, Paper, styled, Typography } from "@mui/material";
+import { Box, Grid, Paper, styled } from "@mui/material";
 import {
   astLeader,
   ppgLeader,
@@ -54,15 +54,6 @@ export function TeamPage() {
             stat={rebLeader.stat}
             statName={rebLeader.statName}
           />
-          <Grid item xs={3} md={6}>
-            <Item>
-              <img
-                src={"https://content.sportslogos.net/logos/6/223/full/444.gif"}
-                alt=""
-              ></img>
-              <Typography>Next Game:</Typography>
-            </Item>
-          </Grid>
         </Grid>
       </Box>
     </div>

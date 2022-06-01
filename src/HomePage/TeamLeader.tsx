@@ -13,7 +13,7 @@ export function TeamLeader({ playerImg, statName, playerName, stat }: Props) {
     <Grid item xs={12} md={4}>
       <Item>
         <Typography variant="h3" sx={{ paddingBottom: 2 }}>
-          {statName}
+          {statName} Leader
         </Typography>
         <img src={playerImg} width="25%" height="25%" alt="" />
         <Typography variant="h5" sx={{ paddingY: 2 }}>

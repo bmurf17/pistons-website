@@ -1,3 +1,4 @@
+import { Box, Card } from "@mui/material";
 import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
 
 const columns: GridColDef[] = [
@@ -46,14 +47,10 @@ const rows = [
 
 export default function StatsDataGrid() {
   return (
-    <div style={{ height: 400, width: "100%" }}>
-      <DataGrid
-        rows={rows}
-        columns={columns}
-        pageSize={5}
-        rowsPerPageOptions={[5]}
-        disableSelectionOnClick
-      />
-    </div>
+    <Card>
+      <Box sx={{ height: "80vh" }}>
+        <DataGrid rows={rows} columns={columns} disableSelectionOnClick />
+      </Box>
+    </Card>
   );
 }
