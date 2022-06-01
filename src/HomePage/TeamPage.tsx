@@ -10,7 +10,7 @@ import { NextGame } from "./NextGame";
 import { TeamLeader } from "./TeamLeader";
 
 export const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+  backgroundColor: "#BEC0C2",
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",

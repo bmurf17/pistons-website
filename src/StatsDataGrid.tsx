@@ -27,7 +27,7 @@ const basketballRows = [
 
 export default function StatsDataGrid() {
   return (
-    <Card>
+    <Card sx={{ backgroundColor: "#BEC0C2" }}>
       <Box sx={{ height: "80vh" }}>
         <DataGrid
           rows={basketballRows}

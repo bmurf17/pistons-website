@@ -19,7 +19,7 @@ export function TeamLeader({ playerImg, statName, playerName, stat }: Props) {
         <Typography variant="h5" sx={{ paddingY: 2 }}>
           {playerName}
         </Typography>
-        <Typography variant="body1">{stat}</Typography>
+        <Typography variant="h5">{stat}</Typography>
       </Item>
     </Grid>
   );

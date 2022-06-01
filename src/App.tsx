@@ -2,17 +2,23 @@ import StatsDataGrid from "./StatsDataGrid";
 import { TeamPage } from "./HomePage/TeamPage";
 import { NavBar } from "./Layout/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ThemeProvider } from "@mui/system";
+import theme from "./Theme/theme";
+import { CssBaseline } from "@mui/material";
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
-      <main>
-        <Routes>
-          <Route path="/" element={<TeamPage />} />
-          <Route path="/stats" element={<StatsDataGrid />} />
-        </Routes>
-      </main>
+      <ThemeProvider theme={theme}>
+        <NavBar />
+        <CssBaseline />
+        <main>
+          <Routes>
+            <Route path="/" element={<TeamPage />} />
+            <Route path="/stats" element={<StatsDataGrid />} />
+          </Routes>
+        </main>
+      </ThemeProvider>
     </BrowserRouter>
   );
 }

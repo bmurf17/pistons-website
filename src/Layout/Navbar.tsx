@@ -7,7 +7,7 @@ export function NavBar() {
   ];
 
   return (
-    <AppBar color="primary" position="static">
+    <AppBar sx={{ backgroundColor: "#1D42BA," }} position="static">
       <Toolbar disableGutters component="nav">
         <Box
           component="nav"
