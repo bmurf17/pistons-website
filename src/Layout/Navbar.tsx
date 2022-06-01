@@ -1,4 +1,3 @@
-import { NoEncryption } from "@mui/icons-material";
 import { AppBar, Box, Toolbar, Link } from "@mui/material";
 
 export function NavBar() {
@@ -6,12 +5,6 @@ export function NavBar() {
     { text: "Home", href: "/", paddingLeft: "0" },
     { text: "Stats", href: "/stats", paddingLeft: "25px" },
   ];
-
-  const orderOfPadding = {
-    aborted: "#D66460",
-    queue: "#6685F0",
-    processing: "#F0E666",
-  };
 
   return (
     <AppBar color="primary" position="static">
