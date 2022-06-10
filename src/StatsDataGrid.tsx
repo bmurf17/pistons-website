@@ -1,11 +1,12 @@
 import { Box, Card } from "@mui/material";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
+import React from "react";
 
-function getFieldGoalPercentage(params: any) {
+function getFieldGoalPercentage(params: { row: { fgm: number; fga: number } }) {
   return params.row.fgm / params.row.fga;
 }
 
-function formatPercentage(params: any) {
+function formatPercentage(params: { value: number }) {
   const valueFormatted = Number(params.value * 100).toLocaleString();
   return `${valueFormatted} %`;
 }

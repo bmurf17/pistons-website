@@ -8,6 +8,7 @@ import { CurrentRecord } from "./CurrentRecord";
 import { LastGame } from "./LastGame";
 import { NextGame } from "./NextGame";
 import { TeamLeader } from "./TeamLeader";
+import React from "react";
 
 export const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#BEC0C2",

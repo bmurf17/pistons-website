@@ -1,5 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import { Item } from "./TeamPage";
+import React from "react";
 
 interface Props {
   playerImg: string;

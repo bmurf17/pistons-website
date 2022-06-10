@@ -1,4 +1,5 @@
 import { AppBar, Box, Toolbar, Link } from "@mui/material";
+import React from "react";
 
 export function NavBar() {
   const links = [
