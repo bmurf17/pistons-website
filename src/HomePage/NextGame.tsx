@@ -6,7 +6,7 @@ export function NextGame() {
     <Grid item xs={12} md={4}>
       <Item>
         <Typography variant="h3" sx={{ paddingBottom: 2 }}>
-          Next Game:
+          Next Game
         </Typography>
         <img
           src={

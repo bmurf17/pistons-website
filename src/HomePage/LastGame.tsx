@@ -6,7 +6,7 @@ export function LastGame() {
     <Grid item xs={12} md={4}>
       <Item>
         <Typography variant="h3" sx={{ paddingBottom: 2 }}>
-          Last Game:
+          Last Game
         </Typography>
         <img
           src={
